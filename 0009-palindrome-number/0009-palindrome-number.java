@@ -2,15 +2,15 @@ class Solution {
 
     public boolean isPalindrome(int x) {
 
-        char[] chars = ("" + x).toCharArray();
+        String str = String.valueOf(x);
         int rightIndex = 0; 
-        int leftIndex = chars.length-1; 
+        int leftIndex = str.length()-1; 
         boolean isPalindrome = true;  
-        for ( int i = 0; i < chars.length; i++ ) {
+        for ( int i = 0; i < str.length(); i++ ) {
             if ( i >= (leftIndex-i)) {
                 break; 
             }
-            if ( chars[leftIndex-i] != chars[i] ) {
+            if ( str.charAt(leftIndex-i) != str.charAt(i) ) {
                 isPalindrome = false; 
                 break; 
             }
