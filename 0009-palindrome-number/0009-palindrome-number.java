@@ -5,7 +5,10 @@ class Solution {
         char[] chars = ("" + x).toCharArray();
         int leftIndex = chars.length-1; 
         boolean isPalindrome = true;  
-        for ( int i = 0; i < chars.length/2; i++ ) {
+        for ( int i = 0; i < chars.length; i++ ) {
+            if ( i >= (leftIndex-i)) {
+                break; 
+            }
             if ( chars[leftIndex-i] != chars[i] ) {
                 isPalindrome = false; 
                 break; 
