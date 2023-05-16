@@ -1,7 +1,6 @@
 class Solution {
     
     public String removeStars(String s) {
-
         char[] arr = s.toCharArray();
         int idx = 0;
         for(char cc : arr) {
