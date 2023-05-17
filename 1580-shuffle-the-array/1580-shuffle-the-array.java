@@ -9,8 +9,6 @@ class Solution {
             nums2[index] = nums[i]; 
             //1,3,5 
             nums2[index+1] = nums[i+n];
-            System.out.println(nums[i] + " in position " + index); 
-            System.out.println(nums[i+n] + " in position " + (index+1));
             index = index + 2;  
                      
         }
