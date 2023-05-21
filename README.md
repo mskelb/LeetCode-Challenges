@@ -1,5 +1,5 @@
 # LeetCode Challenges
-A collection of my solved LeetCode challenges :fire: 
+A (tiny) collection of solved LeetCode challenges :fire: 
 <pre>
 <strong> Programming languages:</strong> Java, SQL 
 
