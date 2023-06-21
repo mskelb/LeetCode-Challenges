@@ -6,6 +6,7 @@ class Solution {
         for (int i = 0; i < nums.length; i++ ) {
             ans[i] = nums[nums[i]]; 
         }
+        System.gc();
         return ans;
 
 
