@@ -30,6 +30,7 @@ class Solution {
             }
         l3.val = value;
         } 
+        
         System.gc();
         return temp.next;
     }
