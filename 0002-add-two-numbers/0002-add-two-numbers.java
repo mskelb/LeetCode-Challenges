@@ -48,4 +48,3 @@ class Solution {
         return temp.next; 
     }
 }
-
