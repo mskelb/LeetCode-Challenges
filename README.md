@@ -1,7 +1,7 @@
 # LeetCode Challenges
 A (tiny) collection of solved LeetCode challenges :fire: 
 <pre>
-<strong> Programming languages:</strong> Java, SQL 
+<strong> Programming languages:</strong> Java, C#, SQL
 
 <strong> Problems Solved:</strong> 19
 
